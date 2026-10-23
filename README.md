@@ -1,4 +1,4 @@
-# django-todo hammad
+# django-todo hammad qazi
 A simple todo app built with django
 
 ![todo App](https://raw.githubusercontent.com/shreys7/django-todo/develop/staticfiles/todoApp.png)
