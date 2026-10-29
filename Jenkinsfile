@@ -18,7 +18,7 @@ pipeline {
       steps {
         sh 'sed "s/IMAGE_TAG/${BUILD_NUMBER}/" k8s/deployment.yaml | kubectl apply -f -'
         sh 'kubectl apply -f k8s/service.yaml'
-        sh 'kubectl rollout status deployment/todo-app --timeout=120s'
+        sh 'kubectl rollout status deployment/todo-deployment --timeout=120s'
       }
     }
   }
